@@ -1,5 +1,5 @@
 # Mod-1-DOM-Based-Game
-Shroomemory
+**Shroomemory**
 
 This is my version of the classic Memory Game that i loved to play as a child and still do to this day.  This game is also known as Match Game, Concentration, Matching Pairs, and Match Up in the United States. This front end game will be written in HTML, CSS, JavaScript, and Node.js. It will be styled using the CSS Flexbox Layout. 
 
