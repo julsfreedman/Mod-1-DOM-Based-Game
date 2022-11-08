@@ -34,6 +34,7 @@ https://www.youtube.com/c/AniaKub%C3%B3w
 
 **Future Endeavors**
 
-Add a player 2 option along with its own score.
-Add a timer to challenge solo players.
-Add an educational description of each mushroom type that appears when each match is found, so the players might learn something while having fun.
+Add a player 2 option along with its own score. <br/>
+Add a timer to challenge solo players.<br/>
+Add an educational description of each mushroom type that appears when each match is found, so the players might learn something while having fun.</br>
+Add a landing page with start button; can put introductory educational information explaining "Wood Wide Web" here.
