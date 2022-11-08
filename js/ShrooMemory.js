@@ -152,9 +152,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
       //Player picked the same card twice so card turns back to back-side image and player moves on to next click guess
     } else if (
       cardsSelected[0] === cardsSelected[1] &&
-      cardsSelectedId[0] !== cardsSelectedId[1] //if the names are the same (and the id numbers are different - in order to make  sure you did not click on the same card  twice as in the first if conditional) the player found a pair and the match should stay face up and become unclickable and the 2 selected images should be pushed into the cardsWon array below
+      cardsSelectedId[0] !== cardsSelectedId[1] //if the names are the same (and the id numbers are different - in order to make  sure you did not click on the same card  twice as in the first if conditional) the player found a pair and the match should stay face up and become unclickable and the 2 selected images should be pushed into the cardsMatch array below
     ) {
-      //if the names are the same (and the id numbers are different - in order to make  sure you did not click on the same card  twice as in the first if conditional) the player found a pair and the match should stay face up and become unclickable and the 2 selected images should be pushed into the cardsWon array below
+      //if the names are the same (and the id numbers are different - in order to make  sure you did not click on the same card  twice as in the first if conditional) the player found a pair and the match should stay face up and become unclickable and the 2 selected images should be pushed into the cardsMatch array below
       cards[cardsSelectedId[0]].removeEventListener("click", flipCard);
       cards[cardsSelectedId[1]].removeEventListener("click", flipCard);
       cardsMatch.push(cardsSelected); // pushing the cardsSelected into the end of the cardsMatch array and returns cardsMatch new length to be compared to in the last if conditional statement to check for a winner
